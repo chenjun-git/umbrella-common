@@ -5,8 +5,8 @@ import (
 
 	chiRender "github.com/go-chi/render"
 
-	"umbrella-go/umbrella-common/errors"
-	"umbrella-go/umbrella-common/lang"
+	"github.com/chenjun-git/umbrella-common/errors"
+	"github.com/chenjun-git/umbrella-common/lang"
 )
 
 type RenderFunc func(w http.ResponseWriter, r *http.Request, v interface{})

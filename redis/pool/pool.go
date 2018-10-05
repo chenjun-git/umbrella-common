@@ -6,7 +6,7 @@ import (
 
 	"github.com/fzzy/radix/extra/pool"
 
-	"umbrella-common/redis"
+	"github.com/chenjun-git/umbrella-common/redis"
 )
 
 type (

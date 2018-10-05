@@ -3,8 +3,8 @@ package httpcaller
 import (
 	"net/http"
 
-	"umbrella-go/umbrella-common/caller"
-	"umbrella-go/umbrella-common/middleware/http"
+	"github.com/chenjun-git/umbrella-common/caller"
+	"github.com/chenjun-git/umbrella-common/middleware/http"
 )
 
 const (

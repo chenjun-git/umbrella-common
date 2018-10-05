@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"umbrella-common/json"
+	"github.com/chenjun-git/umbrella-common/json"
 )
 
 type Version struct {

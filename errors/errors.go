@@ -3,7 +3,7 @@ package errors
 import (
 	"fmt"
 
-	proto "umbrella-common/proto"
+	proto "github.com/chenjun-git/umbrella-common/proto"
 )
 
 type Error interface {

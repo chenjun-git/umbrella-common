@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"umbrella-go/umbrella-common/caller"
-	"umbrella-go/umbrella-common/middleware/http"
+	"github.com/chenjun-git/umbrella-common/caller"
+	"github.com/chenjun-git/umbrella-common/middleware/http"
 )
 
 func newEchoServer(middlewares ...httpmiddleware.ServerMiddleware) *httptest.Server {

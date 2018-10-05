@@ -3,7 +3,7 @@ package httpmiddleware
 import (
 	"net/http"
 
-	"umbrella-go/umbrella-common/lang"
+	"github.com/chenjun-git/umbrella-common/lang"
 )
 
 // 从HTTP Header中取出languages，将其设置到Context Metadata中

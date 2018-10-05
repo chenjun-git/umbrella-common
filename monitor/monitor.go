@@ -10,7 +10,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"umbrella-common/caller"
+	"github.com/chenjun-git/umbrella-common/caller"
 )
 
 var MonitorHandlers = make(map[string]http.Handler)
