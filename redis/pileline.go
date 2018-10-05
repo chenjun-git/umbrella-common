@@ -3,7 +3,7 @@ package redis
 import (
 	"context"
 
-	"github.com/chenjun-git/umbrella-common/redis"
+	"github.com/fzzy/radix/redis"
 )
 
 type Pipeliner func(ctx context.Context, reqs []*Request) []*redis.Reply
