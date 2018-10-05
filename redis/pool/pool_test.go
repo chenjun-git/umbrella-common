@@ -8,7 +8,7 @@ import (
 	radix "github.com/fzzy/radix/redis"
 	"github.com/stretchr/testify/assert"
 
-	"umbrella-go/umbrella-common/redis"
+	"umbrella-common/redis"
 )
 
 func TestPool(t *testing.T) {

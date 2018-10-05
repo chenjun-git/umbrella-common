@@ -3,7 +3,7 @@ package redis
 import (
 	"context"
 
-	"umbrella-go/umbrella-common/redis"
+	"umbrella-common/redis"
 )
 
 type Cmder func(ctx context.Context, cmd string, args []interface{}) *redis.Reply

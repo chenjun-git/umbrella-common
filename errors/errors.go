@@ -3,7 +3,7 @@ package errors
 import (
 	"fmt"
 
-	proto "umbrella-go/umbrella-common/proto"
+	proto "umbrella-common/proto"
 )
 
 type Error interface {

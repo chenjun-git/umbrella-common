@@ -6,7 +6,7 @@ import (
 
 	"github.com/fzzy/radix/extra/pool"
 
-	"umbrella-go/umbrella-common/redis"
+	"umbrella-common/redis"
 )
 
 type (

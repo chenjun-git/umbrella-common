@@ -5,8 +5,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"umbrella-go/umbrella-common/caller"
-	"umbrella-go/umbrella-common/middleware/grpc"
+	"umbrella-common/caller"
+	"umbrella-common/middleware/grpc"
 )
 
 const (

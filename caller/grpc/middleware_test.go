@@ -9,9 +9,9 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"umbrella-go/umbrella-common/caller"
-	pb "umbrella-go/umbrella-common/caller/grpc/test"
-	"umbrella-go/umbrella-common/middleware/grpc"
+	"umbrella-common/caller"
+	pb "umbrella-common/caller/grpc/test"
+	"umbrella-common/middleware/grpc"
 )
 
 type testServer struct{}

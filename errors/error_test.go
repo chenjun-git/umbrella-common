@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	commonProto "umbrella-go/umbrella-common/proto"
+	commonProto "umbrella-common/proto"
 )
 
 func TestFromProtoError(t *testing.T) {

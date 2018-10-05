@@ -7,7 +7,7 @@ import (
 	"github.com/fzzy/radix/extra/cluster"
 	radix "github.com/fzzy/radix/redis"
 
-	"umbrella-go/umbrella-common/redis"
+	"umbrella-common/redis"
 )
 
 type (
